@@ -24,9 +24,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/streambuf"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/T0kii/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/libbeat/common/streambuf"
+	"github.com/T0kii/beats/v7/packetbeat/protos"
 )
 
 // sip Message

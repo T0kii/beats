@@ -24,8 +24,8 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/module/docker"
 )
 
 func init() {

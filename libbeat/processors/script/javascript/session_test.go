@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
@@ -150,7 +150,7 @@ func TestSessionTimeout(t *testing.T) {
 
 	const runawayLoop = `
 		while (!evt.fields.stop) {
-			evt.Put("hello", "world");			
+			evt.Put("hello", "world");
 		}
     `
 
@@ -189,7 +189,7 @@ func TestSessionTimeout(t *testing.T) {
 
 func TestSessionParallel(t *testing.T) {
 	const script = `
-		evt.Put("host.name", "workstation");			
+		evt.Put("host.name", "workstation");
     `
 
 	p, err := NewFromConfig(Config{

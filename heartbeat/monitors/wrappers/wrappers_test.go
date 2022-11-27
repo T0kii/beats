@@ -37,14 +37,14 @@ import (
 	"github.com/elastic/go-lookslike/testslike"
 	"github.com/elastic/go-lookslike/validator"
 
-	"github.com/elastic/beats/v7/heartbeat/ecserr"
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/hbtestllext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/logger"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/heartbeat/ecserr"
+	"github.com/T0kii/beats/v7/heartbeat/eventext"
+	"github.com/T0kii/beats/v7/heartbeat/hbtestllext"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/jobs"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/logger"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 )
 
 type testDef struct {

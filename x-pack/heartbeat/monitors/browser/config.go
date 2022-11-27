@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/monitors/browser/source"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

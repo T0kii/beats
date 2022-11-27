@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/auditbeat/core"
-	abtest "github.com/elastic/beats/v7/auditbeat/testing"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/auditbeat/core"
+	abtest "github.com/T0kii/beats/v7/auditbeat/testing"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

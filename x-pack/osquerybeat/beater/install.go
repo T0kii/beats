@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/distro"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/fileutil"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/install"
+	"github.com/T0kii/beats/v7/x-pack/osquerybeat/internal/distro"
+	"github.com/T0kii/beats/v7/x-pack/osquerybeat/internal/fileutil"
+	"github.com/T0kii/beats/v7/x-pack/osquerybeat/internal/install"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

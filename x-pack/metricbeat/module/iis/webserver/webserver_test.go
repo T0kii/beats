@@ -10,7 +10,7 @@ package webserver
 import (
 	"os"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 )
 
 func init() {

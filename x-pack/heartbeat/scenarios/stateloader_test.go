@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers/monitorstate"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/scenarios/framework"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers/monitorstate"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/scenarios/framework"
 )
 
 var esIntegTwists = framework.MultiTwist(TwistAddRunFrom, TwistMultiRun(3))

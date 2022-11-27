@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/monitors/browser/source"
 )
 
 func TestConfig_Validate(t *testing.T) {

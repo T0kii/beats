@@ -5,7 +5,7 @@
 package httpjson
 
 import (
-	inputcursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
+	inputcursor "github.com/T0kii/beats/v7/filebeat/input/v2/input-cursor"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

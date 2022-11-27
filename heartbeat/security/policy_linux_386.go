@@ -17,7 +17,7 @@
 
 package security
 
-import "github.com/elastic/beats/v7/libbeat/common/seccomp"
+import "github.com/T0kii/beats/v7/libbeat/common/seccomp"
 
 func init() {
 	var syscalls = []string{

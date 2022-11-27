@@ -32,9 +32,9 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/mongodb"
+	"github.com/T0kii/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/metricbeat/module/mongodb"
 
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

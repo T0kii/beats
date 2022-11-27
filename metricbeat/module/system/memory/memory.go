@@ -23,8 +23,8 @@ package memory
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb/parse"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-libs/transform/typeconv"
 	metrics "github.com/elastic/elastic-agent-system-metrics/metric/memory"

@@ -33,11 +33,11 @@ import (
 	"github.com/google/gopacket/pcapgo"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/T0kii/beats/v7/libbeat/common/atomic"
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	"github.com/elastic/beats/v7/packetbeat/config"
-	"github.com/elastic/beats/v7/packetbeat/decoder"
+	"github.com/T0kii/beats/v7/packetbeat/config"
+	"github.com/T0kii/beats/v7/packetbeat/decoder"
 )
 
 // Sniffer provides packet sniffing capabilities, forwarding packets read

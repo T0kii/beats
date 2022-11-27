@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/dashboards"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/T0kii/beats/v7/libbeat/cmd/instance"
+	"github.com/T0kii/beats/v7/libbeat/dashboards"
+	"github.com/T0kii/beats/v7/libbeat/version"
 	"github.com/elastic/elastic-agent-libs/config"
 	kbn "github.com/elastic/elastic-agent-libs/kibana"
 )

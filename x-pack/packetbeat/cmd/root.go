@@ -7,18 +7,18 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	packetbeatCmd "github.com/elastic/beats/v7/packetbeat/cmd"
-	"github.com/elastic/beats/v7/x-pack/libbeat/management"
+	"github.com/T0kii/beats/v7/libbeat/cmd"
+	"github.com/T0kii/beats/v7/libbeat/common/reload"
+	packetbeatCmd "github.com/T0kii/beats/v7/packetbeat/cmd"
+	"github.com/T0kii/beats/v7/x-pack/libbeat/management"
 	"github.com/elastic/elastic-agent-client/v7/pkg/client"
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 	conf "github.com/elastic/elastic-agent-libs/config"
 
-	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
+	_ "github.com/T0kii/beats/v7/x-pack/libbeat/include"
 
 	// This registers the Npcap installer on Windows.
-	_ "github.com/elastic/beats/v7/x-pack/packetbeat/npcap"
+	_ "github.com/T0kii/beats/v7/x-pack/packetbeat/npcap"
 )
 
 // Name of this beat.

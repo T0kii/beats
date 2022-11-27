@@ -23,11 +23,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegtest"
+	"github.com/T0kii/beats/v7/heartbeat/config"
+	"github.com/T0kii/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/T0kii/beats/v7/libbeat/esleg/eslegtest"
 
-	"github.com/elastic/beats/v7/heartbeat/esutil"
+	"github.com/T0kii/beats/v7/heartbeat/esutil"
 	"github.com/elastic/go-elasticsearch/v8"
 )
 

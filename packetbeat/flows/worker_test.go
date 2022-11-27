@@ -28,8 +28,8 @@ import (
 
 	"github.com/elastic/go-lookslike"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/packetbeat/procs"
+	"github.com/T0kii/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/packetbeat/procs"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

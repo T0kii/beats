@@ -15,8 +15,8 @@ import (
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/heartbeat/ecserr"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/T0kii/beats/v7/heartbeat/ecserr"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers"
 )
 
 // These constants define all known synthetics event types

@@ -21,8 +21,8 @@
 package journald
 
 import (
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	cursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
+	v2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	cursor "github.com/T0kii/beats/v7/filebeat/input/v2/input-cursor"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

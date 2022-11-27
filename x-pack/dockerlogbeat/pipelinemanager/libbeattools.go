@@ -13,12 +13,12 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cloudid"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/cloudid"
+	"github.com/T0kii/beats/v7/libbeat/outputs"
+	"github.com/T0kii/beats/v7/libbeat/publisher/pipeline"
+	"github.com/T0kii/beats/v7/libbeat/publisher/processing"
+	"github.com/T0kii/beats/v7/libbeat/version"
 	"github.com/elastic/elastic-agent-libs/file"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

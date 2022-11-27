@@ -15,9 +15,9 @@ import (
 	"github.com/gofrs/uuid"
 	"go.uber.org/multierr"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/statestore"
-	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/statestore"
+	awscommon "github.com/T0kii/beats/v7/x-pack/libbeat/common/aws"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/monitoring"
 	"github.com/elastic/go-concert/timed"

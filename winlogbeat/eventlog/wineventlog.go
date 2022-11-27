@@ -34,11 +34,11 @@ import (
 	"github.com/joeshaw/multierror"
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/winlogbeat/checkpoint"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
-	win "github.com/elastic/beats/v7/winlogbeat/sys/wineventlog"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/winlogbeat/checkpoint"
+	"github.com/T0kii/beats/v7/winlogbeat/sys"
+	"github.com/T0kii/beats/v7/winlogbeat/sys/winevent"
+	win "github.com/T0kii/beats/v7/winlogbeat/sys/wineventlog"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec/json"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/outputs/codec/json"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/module"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb/module"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

@@ -23,7 +23,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/elastic/beats/v7/dev-tools/mage/gotool"
+	"github.com/T0kii/beats/v7/dev-tools/mage/gotool"
 )
 
 var (

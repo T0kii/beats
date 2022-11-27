@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/T0kii/beats/v7/libbeat/common/atomic"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

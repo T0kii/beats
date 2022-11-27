@@ -29,9 +29,9 @@ import (
 	"github.com/spf13/cobra"
 	tml "golang.org/x/crypto/ssh/terminal"
 
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/common/cli"
-	"github.com/elastic/beats/v7/libbeat/common/terminal"
+	"github.com/T0kii/beats/v7/libbeat/cmd/instance"
+	"github.com/T0kii/beats/v7/libbeat/common/cli"
+	"github.com/T0kii/beats/v7/libbeat/common/terminal"
 	"github.com/elastic/elastic-agent-libs/keystore"
 )
 

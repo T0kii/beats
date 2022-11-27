@@ -20,8 +20,8 @@ package input
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/input/file"
+	"github.com/T0kii/beats/v7/filebeat/channel"
+	"github.com/T0kii/beats/v7/filebeat/input/file"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

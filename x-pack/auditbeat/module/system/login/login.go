@@ -12,9 +12,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/v7/auditbeat/datastore"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/auditbeat/datastore"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

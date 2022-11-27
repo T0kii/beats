@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt"
-	"github.com/elastic/beats/v7/libbeat/outputs"
+	"github.com/T0kii/beats/v7/libbeat/cmd/instance"
+	"github.com/T0kii/beats/v7/libbeat/idxmgmt"
+	"github.com/T0kii/beats/v7/libbeat/outputs"
 	"github.com/elastic/elastic-agent-libs/testing"
 )
 

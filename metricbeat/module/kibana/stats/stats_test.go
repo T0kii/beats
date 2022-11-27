@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/kibana/mtest"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/metricbeat/module/kibana/mtest"
 )
 
 func TestFetchExcludeUsage(t *testing.T) {

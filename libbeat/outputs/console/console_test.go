@@ -29,14 +29,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec/format"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec/json"
-	"github.com/elastic/beats/v7/libbeat/outputs/outest"
-	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/common/fmtstr"
+	"github.com/T0kii/beats/v7/libbeat/outputs"
+	"github.com/T0kii/beats/v7/libbeat/outputs/codec"
+	"github.com/T0kii/beats/v7/libbeat/outputs/codec/format"
+	"github.com/T0kii/beats/v7/libbeat/outputs/codec/json"
+	"github.com/T0kii/beats/v7/libbeat/outputs/outest"
+	"github.com/T0kii/beats/v7/libbeat/publisher"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

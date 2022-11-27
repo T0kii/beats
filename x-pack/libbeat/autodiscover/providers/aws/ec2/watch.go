@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	awsauto "github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
+	awsauto "github.com/T0kii/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

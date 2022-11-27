@@ -10,16 +10,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat/events"
-	"github.com/elastic/beats/v7/libbeat/processors/add_data_stream"
+	"github.com/T0kii/beats/v7/libbeat/beat/events"
+	"github.com/T0kii/beats/v7/libbeat/processors/add_data_stream"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/heartbeat/eventext"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 )
 
 type enricher func(event *beat.Event, se *SynthEvent) error

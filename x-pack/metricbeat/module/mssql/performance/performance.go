@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/mssql"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/x-pack/metricbeat/module/mssql"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
@@ -78,15 +78,15 @@ WHERE  counter_name = 'SQL Compilations/sec'
         OR counter_name = 'Batch Requests/sec'
         OR ( counter_name = 'Lock Waits/sec'
              AND instance_name = '_Total' )
-        OR ( counter_name IN ( 'Page life expectancy', 
-                  'Buffer cache hit ratio', 
-                  'Target pages', 'Database pages', 
+        OR ( counter_name IN ( 'Page life expectancy',
+                  'Buffer cache hit ratio',
+                  'Target pages', 'Database pages',
                   'Checkpoint pages/sec' )
              AND object_name LIKE '%:Buffer Manager%' )
-        OR ( counter_name IN ( 'Transactions', 
-                  'Logins/sec', 
-                  'Logouts/sec', 
-                  'Connection Reset/sec', 
+        OR ( counter_name IN ( 'Transactions',
+                  'Logins/sec',
+                  'Logouts/sec',
+                  'Connection Reset/sec',
                   'Active Temp Tables' )
              AND object_name LIKE '%:General Statistics%' )`)
 	if err != nil {

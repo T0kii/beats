@@ -24,9 +24,9 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
+	"github.com/T0kii/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/module/docker"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

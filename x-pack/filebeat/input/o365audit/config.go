@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/o365audit/auth"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/o365audit/auth"
 	"github.com/elastic/elastic-agent-libs/transport/tlscommon"
 )
 

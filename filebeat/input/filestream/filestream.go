@@ -28,9 +28,9 @@ import (
 	"github.com/elastic/go-concert/timed"
 	"github.com/elastic/go-concert/unison"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/common/backoff"
-	"github.com/elastic/beats/v7/libbeat/common/file"
+	input "github.com/T0kii/beats/v7/filebeat/input/v2"
+	"github.com/T0kii/beats/v7/libbeat/common/backoff"
+	"github.com/T0kii/beats/v7/libbeat/common/file"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

@@ -23,9 +23,9 @@ package node
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/couchbase"
+	_ "github.com/T0kii/beats/v7/metricbeat/module/couchbase"
 )
 
 func TestData(t *testing.T) {

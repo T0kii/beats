@@ -23,7 +23,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/shirou/gopsutil/v3/net"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-system-metrics/metric/system/resolve"
 )

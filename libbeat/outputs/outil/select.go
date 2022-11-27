@@ -20,9 +20,9 @@ package outil
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/conditions"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/common/fmtstr"
+	"github.com/T0kii/beats/v7/libbeat/conditions"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

@@ -18,8 +18,8 @@
 package amqp
 
 import (
-	"github.com/elastic/beats/v7/packetbeat/config"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/T0kii/beats/v7/packetbeat/config"
+	"github.com/T0kii/beats/v7/packetbeat/protos"
 )
 
 type amqpConfig struct {

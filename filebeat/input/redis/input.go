@@ -22,11 +22,11 @@ import (
 
 	rd "github.com/gomodule/redigo/redis"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/filebeat/channel"
+	"github.com/T0kii/beats/v7/filebeat/harvester"
+	"github.com/T0kii/beats/v7/filebeat/input"
+	"github.com/T0kii/beats/v7/filebeat/input/file"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

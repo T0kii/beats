@@ -22,12 +22,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/plugin"
+	"github.com/T0kii/beats/v7/libbeat/version"
 	conf "github.com/elastic/elastic-agent-libs/config"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/jobs"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers"
 	"github.com/elastic/elastic-agent-libs/transport/httpcommon"
 	"github.com/elastic/elastic-agent-libs/transport/tlscommon"
 	"github.com/elastic/elastic-agent-libs/useragent"

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/libbeat/processors/util"
+	"github.com/T0kii/beats/v7/heartbeat/config"
+	"github.com/T0kii/beats/v7/libbeat/processors/util"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

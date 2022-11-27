@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/filebeat/channel"
+	"github.com/T0kii/beats/v7/filebeat/input"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 
 	bay "github.com/elastic/bayeux"
 	conf "github.com/elastic/elastic-agent-libs/config"

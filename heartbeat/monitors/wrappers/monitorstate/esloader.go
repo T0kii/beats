@@ -25,9 +25,9 @@ import (
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/T0kii/beats/v7/heartbeat/config"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/libbeat/esleg/eslegclient"
 )
 
 func MakeESLoader(esc *eslegclient.Connection, indexPattern string, beatLocation *config.LocationWithID) StateLoader {

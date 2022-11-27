@@ -20,13 +20,13 @@ package connection
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/rabbitmq/mtest"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/metricbeat/module/rabbitmq/mtest"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
 	"github.com/stretchr/testify/assert"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/rabbitmq"
+	_ "github.com/T0kii/beats/v7/metricbeat/module/rabbitmq"
 )
 
 func TestFetchEventContents(t *testing.T) {

@@ -5,14 +5,14 @@
 package inputs
 
 import (
-	"github.com/elastic/beats/v7/filebeat/beater"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/awss3"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/http_endpoint"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/httpjson"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/lumberjack"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/o365audit"
+	"github.com/T0kii/beats/v7/filebeat/beater"
+	v2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/awss3"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/http_endpoint"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/httpjson"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/lumberjack"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/o365audit"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

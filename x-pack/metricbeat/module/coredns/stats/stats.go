@@ -5,8 +5,8 @@
 package stats
 
 import (
-	"github.com/elastic/beats/v7/metricbeat/helper/prometheus"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/helper/prometheus"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 )
 
 var mapping = &prometheus.MetricsMapping{

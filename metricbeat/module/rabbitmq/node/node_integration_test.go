@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/rabbitmq/mtest"
+	"github.com/T0kii/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/metricbeat/module/rabbitmq/mtest"
 )
 
 func TestData(t *testing.T) {

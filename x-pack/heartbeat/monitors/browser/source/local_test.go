@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source/fixtures"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/monitors/browser/source/fixtures"
 
 	"github.com/stretchr/testify/require"
 )

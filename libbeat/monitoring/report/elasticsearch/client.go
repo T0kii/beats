@@ -28,10 +28,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat/events"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/monitoring/report"
-	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/T0kii/beats/v7/libbeat/beat/events"
+	"github.com/T0kii/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/T0kii/beats/v7/libbeat/monitoring/report"
+	"github.com/T0kii/beats/v7/libbeat/publisher"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-libs/testing"

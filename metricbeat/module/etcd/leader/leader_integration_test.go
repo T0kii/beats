@@ -25,8 +25,8 @@ import (
 
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
 )
 
 func TestFetch(t *testing.T) {

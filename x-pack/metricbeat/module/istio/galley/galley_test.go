@@ -11,9 +11,9 @@ package galley
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/x-pack/metricbeat/module/istio"
+	_ "github.com/T0kii/beats/v7/x-pack/metricbeat/module/istio"
 )
 
 func TestData(t *testing.T) {

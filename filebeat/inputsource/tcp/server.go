@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/net/netutil"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/filebeat/inputsource/common/streaming"
+	"github.com/T0kii/beats/v7/filebeat/inputsource"
+	"github.com/T0kii/beats/v7/filebeat/inputsource/common/streaming"
 	"github.com/elastic/elastic-agent-libs/transport/tlscommon"
 )
 

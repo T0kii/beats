@@ -10,10 +10,10 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	s "github.com/T0kii/beats/v7/libbeat/common/schema"
+	c "github.com/T0kii/beats/v7/libbeat/common/schema/mapstriface"
+	"github.com/T0kii/beats/v7/metricbeat/helper/elastic"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

@@ -29,7 +29,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/libbeat/common"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"

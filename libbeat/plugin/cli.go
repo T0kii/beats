@@ -25,7 +25,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

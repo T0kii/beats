@@ -20,8 +20,8 @@ package pipeline
 import (
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/T0kii/beats/v7/libbeat/common/atomic"
+	"github.com/T0kii/beats/v7/libbeat/publisher/queue"
 )
 
 type testQueue struct {

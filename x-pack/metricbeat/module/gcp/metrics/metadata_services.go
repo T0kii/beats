@@ -5,9 +5,9 @@
 package metrics
 
 import (
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp/metrics/cloudsql"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp/metrics/compute"
+	"github.com/T0kii/beats/v7/x-pack/metricbeat/module/gcp"
+	"github.com/T0kii/beats/v7/x-pack/metricbeat/module/gcp/metrics/cloudsql"
+	"github.com/T0kii/beats/v7/x-pack/metricbeat/module/gcp/metrics/compute"
 )
 
 // NewMetadataServiceForConfig returns a service to fetch metadata from a config struct. It must return the Compute

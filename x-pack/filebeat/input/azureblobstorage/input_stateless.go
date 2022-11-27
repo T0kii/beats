@@ -7,10 +7,10 @@ package azureblobstorage
 import (
 	"context"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	cursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
-	stateless "github.com/elastic/beats/v7/filebeat/input/v2/input-stateless"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	v2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	cursor "github.com/T0kii/beats/v7/filebeat/input/v2/input-cursor"
+	stateless "github.com/T0kii/beats/v7/filebeat/input/v2/input-stateless"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 )
 
 type statelessInput struct {

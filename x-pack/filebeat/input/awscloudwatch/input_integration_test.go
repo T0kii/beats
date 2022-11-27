@@ -31,9 +31,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 	"github.com/stretchr/testify/assert"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
-	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
+	v2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	pubtest "github.com/T0kii/beats/v7/libbeat/publisher/testing"
+	awscommon "github.com/T0kii/beats/v7/x-pack/libbeat/common/aws"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"

@@ -18,12 +18,12 @@
 package inputs
 
 import (
-	"github.com/elastic/beats/v7/filebeat/beater"
-	"github.com/elastic/beats/v7/filebeat/input/filestream"
-	"github.com/elastic/beats/v7/filebeat/input/kafka"
-	"github.com/elastic/beats/v7/filebeat/input/unix"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/filebeat/beater"
+	"github.com/T0kii/beats/v7/filebeat/input/filestream"
+	"github.com/T0kii/beats/v7/filebeat/input/kafka"
+	"github.com/T0kii/beats/v7/filebeat/input/unix"
+	v2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

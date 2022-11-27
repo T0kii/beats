@@ -21,7 +21,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/libbeat/common"
 )
 
 var (

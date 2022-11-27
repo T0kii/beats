@@ -7,9 +7,9 @@ package scenarios
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/libbeat/processors/util"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/scenarios/framework"
+	"github.com/T0kii/beats/v7/heartbeat/config"
+	"github.com/T0kii/beats/v7/libbeat/processors/util"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/scenarios/framework"
 )
 
 var TestLocationDefault = TestLocationMpls

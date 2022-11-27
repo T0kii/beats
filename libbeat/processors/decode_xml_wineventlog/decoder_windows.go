@@ -23,8 +23,8 @@ package decode_xml_wineventlog
 import (
 	"sync"
 
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
-	"github.com/elastic/beats/v7/winlogbeat/sys/wineventlog"
+	"github.com/T0kii/beats/v7/winlogbeat/sys/winevent"
+	"github.com/T0kii/beats/v7/winlogbeat/sys/wineventlog"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

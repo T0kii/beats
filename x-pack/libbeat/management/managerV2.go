@@ -14,9 +14,9 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	lbmanagement "github.com/elastic/beats/v7/libbeat/management"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/T0kii/beats/v7/libbeat/common/reload"
+	lbmanagement "github.com/T0kii/beats/v7/libbeat/management"
+	"github.com/T0kii/beats/v7/libbeat/version"
 	"github.com/elastic/elastic-agent-client/v7/pkg/client"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"

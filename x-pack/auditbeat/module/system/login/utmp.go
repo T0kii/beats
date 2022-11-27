@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/elastic/beats/v7/auditbeat/datastore"
+	"github.com/T0kii/beats/v7/auditbeat/datastore"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

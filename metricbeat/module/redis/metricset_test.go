@@ -23,7 +23,7 @@ package redis
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 
 	"github.com/stretchr/testify/assert"
 )

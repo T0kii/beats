@@ -21,7 +21,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/elastic/beats/v7/libbeat/reader"
+	"github.com/T0kii/beats/v7/libbeat/reader"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/match"
 	"github.com/elastic/go-concert/ctxtool"

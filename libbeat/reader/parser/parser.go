@@ -24,13 +24,13 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgtype"
-	"github.com/elastic/beats/v7/libbeat/reader"
-	"github.com/elastic/beats/v7/libbeat/reader/filter"
-	"github.com/elastic/beats/v7/libbeat/reader/multiline"
-	"github.com/elastic/beats/v7/libbeat/reader/readfile"
-	"github.com/elastic/beats/v7/libbeat/reader/readjson"
-	"github.com/elastic/beats/v7/libbeat/reader/syslog"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgtype"
+	"github.com/T0kii/beats/v7/libbeat/reader"
+	"github.com/T0kii/beats/v7/libbeat/reader/filter"
+	"github.com/T0kii/beats/v7/libbeat/reader/multiline"
+	"github.com/T0kii/beats/v7/libbeat/reader/readfile"
+	"github.com/T0kii/beats/v7/libbeat/reader/readjson"
+	"github.com/T0kii/beats/v7/libbeat/reader/syslog"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

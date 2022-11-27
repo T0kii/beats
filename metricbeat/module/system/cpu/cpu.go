@@ -23,8 +23,8 @@ package cpu
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb/parse"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	metrics "github.com/elastic/elastic-agent-system-metrics/metric/cpu"
 	"github.com/elastic/elastic-agent-system-metrics/metric/system/resolve"

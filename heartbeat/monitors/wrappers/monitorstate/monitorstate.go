@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
 )
 
 // FlappingThreshold defines how many consecutive checks with the same status

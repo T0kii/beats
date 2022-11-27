@@ -42,8 +42,8 @@ import (
 	mkdns "github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/T0kii/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/packetbeat/protos"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

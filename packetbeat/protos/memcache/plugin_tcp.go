@@ -22,12 +22,12 @@ package memcache
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/libbeat/common"
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	"github.com/elastic/beats/v7/packetbeat/protos"
-	"github.com/elastic/beats/v7/packetbeat/protos/applayer"
-	"github.com/elastic/beats/v7/packetbeat/protos/tcp"
+	"github.com/T0kii/beats/v7/packetbeat/protos"
+	"github.com/T0kii/beats/v7/packetbeat/protos/applayer"
+	"github.com/T0kii/beats/v7/packetbeat/protos/tcp"
 )
 
 type tcpMemcache struct {

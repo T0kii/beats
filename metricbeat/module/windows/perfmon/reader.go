@@ -27,9 +27,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/windows/pdh"
+	"github.com/T0kii/beats/v7/metricbeat/helper/windows/pdh"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

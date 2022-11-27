@@ -23,9 +23,9 @@ import (
 
 	"go.mongodb.org/mongo-driver/bson"
 
-	"github.com/elastic/beats/v7/libbeat/common/schema"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/mongodb"
+	"github.com/T0kii/beats/v7/libbeat/common/schema"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/module/mongodb"
 )
 
 func init() {

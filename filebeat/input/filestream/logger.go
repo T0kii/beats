@@ -18,8 +18,8 @@
 package filestream
 
 import (
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	"github.com/elastic/beats/v7/libbeat/common/file"
+	loginp "github.com/T0kii/beats/v7/filebeat/input/filestream/internal/input-logfile"
+	"github.com/T0kii/beats/v7/libbeat/common/file"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

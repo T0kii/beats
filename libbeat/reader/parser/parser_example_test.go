@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgtype"
-	"github.com/elastic/beats/v7/libbeat/reader/readfile"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgtype"
+	"github.com/T0kii/beats/v7/libbeat/reader/readfile"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

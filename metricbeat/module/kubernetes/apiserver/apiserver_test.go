@@ -24,9 +24,9 @@ package apiserver
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/prometheus/ptest"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	_ "github.com/elastic/beats/v7/metricbeat/module/kubernetes"
+	"github.com/T0kii/beats/v7/metricbeat/helper/prometheus/ptest"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	_ "github.com/T0kii/beats/v7/metricbeat/module/kubernetes"
 )
 
 func TestEventMappingV2_0(t *testing.T) {

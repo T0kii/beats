@@ -10,7 +10,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/T0kii/beats/v7/libbeat/processors"
 )
 
 // Default index name for ad-hoc queries, since the dataset is defined at the stream level, for example:

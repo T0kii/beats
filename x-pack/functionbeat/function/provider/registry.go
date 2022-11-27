@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/feature"
-	"github.com/elastic/beats/v7/x-pack/functionbeat/config"
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/core"
+	"github.com/T0kii/beats/v7/libbeat/feature"
+	"github.com/T0kii/beats/v7/x-pack/functionbeat/config"
+	"github.com/T0kii/beats/v7/x-pack/functionbeat/function/core"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

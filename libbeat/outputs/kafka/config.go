@@ -27,11 +27,11 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/common/kafka"
-	"github.com/elastic/beats/v7/libbeat/common/transport/kerberos"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/libbeat/common/fmtstr"
+	"github.com/T0kii/beats/v7/libbeat/common/kafka"
+	"github.com/T0kii/beats/v7/libbeat/common/transport/kerberos"
+	"github.com/T0kii/beats/v7/libbeat/outputs/codec"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/monitoring"

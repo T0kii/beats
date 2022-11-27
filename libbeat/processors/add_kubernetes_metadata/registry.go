@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	p "github.com/elastic/beats/v7/libbeat/plugin"
+	p "github.com/T0kii/beats/v7/libbeat/plugin"
 )
 
 var (

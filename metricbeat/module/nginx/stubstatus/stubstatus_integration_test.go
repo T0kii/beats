@@ -23,8 +23,8 @@ package stubstatus
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -25,9 +25,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/libbeat/statestore"
-	"github.com/elastic/beats/v7/libbeat/statestore/backend"
+	"github.com/T0kii/beats/v7/filebeat/input/file"
+	"github.com/T0kii/beats/v7/libbeat/statestore"
+	"github.com/T0kii/beats/v7/libbeat/statestore/backend"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/monitoring"
 )

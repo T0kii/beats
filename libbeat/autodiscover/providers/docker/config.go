@@ -23,7 +23,7 @@ package docker
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
+	"github.com/T0kii/beats/v7/libbeat/autodiscover/template"
 	"github.com/elastic/elastic-agent-autodiscover/docker"
 	"github.com/elastic/elastic-agent-libs/config"
 )

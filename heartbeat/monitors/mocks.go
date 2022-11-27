@@ -34,17 +34,17 @@ import (
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/validator"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/hbtestllext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers/monitorstate"
-	"github.com/elastic/beats/v7/heartbeat/scheduler"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
-	beatversion "github.com/elastic/beats/v7/libbeat/version"
+	"github.com/T0kii/beats/v7/heartbeat/eventext"
+	"github.com/T0kii/beats/v7/heartbeat/hbtest"
+	"github.com/T0kii/beats/v7/heartbeat/hbtestllext"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/jobs"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/plugin"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers/monitorstate"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/common/atomic"
+	"github.com/T0kii/beats/v7/libbeat/publisher/pipeline"
+	beatversion "github.com/T0kii/beats/v7/libbeat/version"
 )
 
 func makeMockFactory(pluginsReg *plugin.PluginsReg) (factory *RunnerFactory, sched *scheduler.Scheduler, close func()) {

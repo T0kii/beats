@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
+	"github.com/T0kii/beats/v7/libbeat/common/transform/typeconv"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

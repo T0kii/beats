@@ -20,7 +20,7 @@ package checks
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/T0kii/beats/v7/libbeat/processors"
 	"github.com/elastic/elastic-agent-libs/config"
 )
 

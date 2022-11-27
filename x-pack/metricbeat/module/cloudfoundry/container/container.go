@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/cloudfoundry"
+	"github.com/T0kii/beats/v7/x-pack/metricbeat/module/cloudfoundry"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

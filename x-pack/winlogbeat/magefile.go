@@ -13,19 +13,19 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/test"
+	devtools "github.com/T0kii/beats/v7/dev-tools/mage"
+	"github.com/T0kii/beats/v7/dev-tools/mage/target/test"
 
 	//mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/common"
+	_ "github.com/T0kii/beats/v7/dev-tools/mage/target/common"
 	//mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/build"
+	_ "github.com/T0kii/beats/v7/dev-tools/mage/target/build"
 	//mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/pkg"
+	_ "github.com/T0kii/beats/v7/dev-tools/mage/target/pkg"
 	//mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/dashboards"
+	_ "github.com/T0kii/beats/v7/dev-tools/mage/target/dashboards"
 	//mage:import
-	winlogbeat "github.com/elastic/beats/v7/winlogbeat/scripts/mage"
+	winlogbeat "github.com/T0kii/beats/v7/winlogbeat/scripts/mage"
 )
 
 func init() {

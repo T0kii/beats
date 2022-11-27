@@ -18,7 +18,7 @@
 package security
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common/seccomp"
+	"github.com/T0kii/beats/v7/libbeat/common/seccomp"
 	seccomp_types "github.com/elastic/go-seccomp-bpf"
 )
 

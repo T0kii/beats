@@ -12,8 +12,8 @@ import (
 	"os"
 	"testing"
 
-	_ "github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/scenarios/framework"
+	_ "github.com/T0kii/beats/v7/x-pack/heartbeat/monitors/browser"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/scenarios/framework"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

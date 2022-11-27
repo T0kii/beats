@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/elastic/beats/v7/x-pack/auditbeat/tracing"
+	"github.com/T0kii/beats/v7/x-pack/auditbeat/tracing"
 )
 
 const (

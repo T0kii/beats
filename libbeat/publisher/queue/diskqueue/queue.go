@@ -24,8 +24,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/feature"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/T0kii/beats/v7/libbeat/feature"
+	"github.com/T0kii/beats/v7/libbeat/publisher/queue"
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/opt"

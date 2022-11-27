@@ -24,10 +24,10 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/common/kafka"
-	"github.com/elastic/beats/v7/libbeat/common/transport/kerberos"
-	"github.com/elastic/beats/v7/libbeat/reader/parser"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/libbeat/common/kafka"
+	"github.com/T0kii/beats/v7/libbeat/common/transport/kerberos"
+	"github.com/T0kii/beats/v7/libbeat/reader/parser"
 	"github.com/elastic/elastic-agent-libs/monitoring"
 	"github.com/elastic/elastic-agent-libs/monitoring/adapter"
 	"github.com/elastic/elastic-agent-libs/transport/tlscommon"

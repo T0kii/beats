@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	dto "github.com/prometheus/client_model/go"
 
-	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	p "github.com/T0kii/beats/v7/metricbeat/helper/prometheus"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 )
 
 // Licensed to Elasticsearch B.V. under one or more contributor

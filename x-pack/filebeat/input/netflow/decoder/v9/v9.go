@@ -12,9 +12,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/config"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/protocol"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/config"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/protocol"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
 )
 
 const (

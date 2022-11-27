@@ -14,11 +14,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	_ "github.com/elastic/beats/v7/metricbeat/module/prometheus"
-	_ "github.com/elastic/beats/v7/metricbeat/module/prometheus/collector"
+	"github.com/T0kii/beats/v7/libbeat/tests/compose"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	_ "github.com/T0kii/beats/v7/metricbeat/module/prometheus"
+	_ "github.com/T0kii/beats/v7/metricbeat/module/prometheus/collector"
 )
 
 func init() {

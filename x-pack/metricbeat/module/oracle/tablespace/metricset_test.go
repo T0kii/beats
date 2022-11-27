@@ -12,9 +12,9 @@ import (
 
 	_ "github.com/godror/godror"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/oracle"
+	"github.com/T0kii/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	"github.com/T0kii/beats/v7/x-pack/metricbeat/module/oracle"
 )
 
 func TestData(t *testing.T) {

@@ -18,7 +18,7 @@
 package log
 
 import (
-	"github.com/elastic/beats/v7/filebeat/input/file"
+	"github.com/T0kii/beats/v7/filebeat/input/file"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

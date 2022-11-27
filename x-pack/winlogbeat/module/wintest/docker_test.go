@@ -21,15 +21,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/version"
-	"github.com/elastic/beats/v7/winlogbeat/module"
-	"github.com/elastic/beats/v7/x-pack/winlogbeat/module/wintest"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/T0kii/beats/v7/libbeat/version"
+	"github.com/T0kii/beats/v7/winlogbeat/module"
+	"github.com/T0kii/beats/v7/x-pack/winlogbeat/module/wintest"
 	"github.com/elastic/elastic-agent-libs/transport/httpcommon"
 
 	// Enable pipelines.
-	_ "github.com/elastic/beats/v7/x-pack/winlogbeat/module"
+	_ "github.com/T0kii/beats/v7/x-pack/winlogbeat/module"
 )
 
 func TestDocker(t *testing.T) {

@@ -23,8 +23,8 @@ import (
 
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/mongodb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/module/mongodb"
 )
 
 func init() {

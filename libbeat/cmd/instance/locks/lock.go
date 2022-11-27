@@ -27,7 +27,7 @@ import (
 
 	"github.com/gofrs/flock"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/paths"
 	metricproc "github.com/elastic/elastic-agent-system-metrics/metric/system/process"

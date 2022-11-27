@@ -19,9 +19,9 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/api/option"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	beattest "github.com/elastic/beats/v7/libbeat/publisher/testing"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/gcs/mock"
+	v2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	beattest "github.com/T0kii/beats/v7/libbeat/publisher/testing"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/gcs/mock"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

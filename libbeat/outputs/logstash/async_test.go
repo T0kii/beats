@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/outputs/outest"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/outputs"
+	"github.com/T0kii/beats/v7/libbeat/outputs/outest"
 	"github.com/elastic/elastic-agent-libs/transport"
 )
 

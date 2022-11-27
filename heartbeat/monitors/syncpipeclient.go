@@ -17,7 +17,7 @@
 
 package monitors
 
-import "github.com/elastic/beats/v7/libbeat/beat"
+import "github.com/T0kii/beats/v7/libbeat/beat"
 
 type SyncPipelineClientAdaptor struct {
 	C beat.Client

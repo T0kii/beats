@@ -30,9 +30,9 @@ import (
 	"github.com/joeshaw/multierror"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/v7/filebeat/fileset"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/T0kii/beats/v7/filebeat/fileset"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/esleg/eslegclient"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/version"
 )

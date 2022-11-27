@@ -7,9 +7,9 @@ package lumberjack
 import (
 	"fmt"
 
-	inputv2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/feature"
+	inputv2 "github.com/T0kii/beats/v7/filebeat/input/v2"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/feature"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/monitoring"
 )

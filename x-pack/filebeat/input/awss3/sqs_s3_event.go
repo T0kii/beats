@@ -17,8 +17,8 @@ import (
 
 	"github.com/aws/smithy-go"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	awscommon "github.com/T0kii/beats/v7/x-pack/libbeat/common/aws"
 
 	"github.com/aws/aws-sdk-go-v2/service/sqs/types"
 	"go.uber.org/multierr"

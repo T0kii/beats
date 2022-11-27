@@ -18,9 +18,9 @@
 package module
 
 import (
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/cfgfile"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

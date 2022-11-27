@@ -21,8 +21,8 @@
 package instance
 
 import (
-	_ "github.com/elastic/beats/v7/libbeat/autodiscover/providers/docker" // Register autodiscover providers
-	_ "github.com/elastic/beats/v7/libbeat/autodiscover/providers/kubernetes"
-	_ "github.com/elastic/beats/v7/libbeat/processors/add_docker_metadata"
-	_ "github.com/elastic/beats/v7/libbeat/processors/add_kubernetes_metadata"
+	_ "github.com/T0kii/beats/v7/libbeat/autodiscover/providers/docker" // Register autodiscover providers
+	_ "github.com/T0kii/beats/v7/libbeat/autodiscover/providers/kubernetes"
+	_ "github.com/T0kii/beats/v7/libbeat/processors/add_docker_metadata"
+	_ "github.com/T0kii/beats/v7/libbeat/processors/add_kubernetes_metadata"
 )

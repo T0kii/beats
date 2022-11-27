@@ -22,9 +22,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/cmd"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/cfgfile"
+	"github.com/T0kii/beats/v7/libbeat/cmd"
 )
 
 func buildModulesManager(beat *beat.Beat) (cmd.ModulesManager, error) {

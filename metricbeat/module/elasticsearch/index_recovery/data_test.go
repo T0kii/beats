@@ -26,9 +26,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
 
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	"github.com/T0kii/beats/v7/metricbeat/module/elasticsearch"
 )
 
 func TestMapper(t *testing.T) {

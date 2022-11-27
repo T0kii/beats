@@ -25,9 +25,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/libbeat/autodiscover"
+	"github.com/T0kii/beats/v7/libbeat/cfgfile"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/paths"

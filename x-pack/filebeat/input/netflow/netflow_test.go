@@ -21,11 +21,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/protocol"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/test"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/protocol"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/test"
 )
 
 var (

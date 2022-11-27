@@ -26,10 +26,10 @@ import (
 	"github.com/elastic/go-concert/timed"
 	"github.com/elastic/go-concert/unison"
 
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	file_helper "github.com/elastic/beats/v7/libbeat/common/file"
-	"github.com/elastic/beats/v7/libbeat/common/match"
+	"github.com/T0kii/beats/v7/filebeat/input/file"
+	loginp "github.com/T0kii/beats/v7/filebeat/input/filestream/internal/input-logfile"
+	file_helper "github.com/T0kii/beats/v7/libbeat/common/file"
+	"github.com/T0kii/beats/v7/libbeat/common/match"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 )

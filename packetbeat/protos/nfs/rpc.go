@@ -26,13 +26,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/T0kii/beats/v7/libbeat/common"
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
-	"github.com/elastic/beats/v7/packetbeat/protos/tcp"
+	"github.com/T0kii/beats/v7/packetbeat/procs"
+	"github.com/T0kii/beats/v7/packetbeat/protos"
+	"github.com/T0kii/beats/v7/packetbeat/protos/tcp"
 )
 
 var debugf = logp.MakeDebug("rpc")

@@ -23,16 +23,16 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/internal/testutil"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/publisher"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/common/atomic"
+	"github.com/T0kii/beats/v7/libbeat/internal/testutil"
+	"github.com/T0kii/beats/v7/libbeat/outputs"
+	"github.com/T0kii/beats/v7/libbeat/publisher"
+	"github.com/T0kii/beats/v7/libbeat/publisher/queue"
+	"github.com/T0kii/beats/v7/libbeat/publisher/queue/memqueue"
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	//"github.com/elastic/beats/v7/libbeat/tests/resources"
+	//"github.com/T0kii/beats/v7/libbeat/tests/resources"
 
 	"github.com/stretchr/testify/require"
 )

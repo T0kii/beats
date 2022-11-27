@@ -21,8 +21,8 @@
 package config
 
 import (
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/processors/util"
+	"github.com/T0kii/beats/v7/libbeat/autodiscover"
+	"github.com/T0kii/beats/v7/libbeat/processors/util"
 	conf "github.com/elastic/elastic-agent-libs/config"
 )
 

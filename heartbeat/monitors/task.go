@@ -21,13 +21,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
+	"github.com/T0kii/beats/v7/libbeat/publisher/pipeline"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/scheduler"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/heartbeat/eventext"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/jobs"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/logp"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )

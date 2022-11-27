@@ -23,7 +23,7 @@ import (
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source/fixtures"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/monitors/browser/source/fixtures"
 )
 
 func TestSimpleCases(t *testing.T) {

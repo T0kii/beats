@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/beats/v7/packetbeat/flows"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/T0kii/beats/v7/packetbeat/flows"
+	"github.com/T0kii/beats/v7/packetbeat/protos"
 	"github.com/elastic/elastic-agent-libs/logp"
 
 	"github.com/google/gopacket"

@@ -30,8 +30,8 @@ import (
 	"github.com/coreos/go-systemd/v22/sdjournal"
 	"github.com/urso/sderr"
 
-	"github.com/elastic/beats/v7/libbeat/common/backoff"
-	"github.com/elastic/beats/v7/libbeat/common/cleanup"
+	"github.com/T0kii/beats/v7/libbeat/common/backoff"
+	"github.com/T0kii/beats/v7/libbeat/common/cleanup"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

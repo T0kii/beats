@@ -18,7 +18,7 @@
 package kibana
 
 import (
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
 )
 
 // MetricSet can be used to build other metricsets within the Kibana module.

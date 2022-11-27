@@ -28,13 +28,13 @@ import (
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/testslike"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/heartbeat/hbtest"
+	"github.com/T0kii/beats/v7/heartbeat/look"
+	"github.com/T0kii/beats/v7/heartbeat/monitors"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 )
 
 func TestICMPFields(t *testing.T) {

@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	"github.com/elastic/beats/v7/libbeat/common/file"
+	loginp "github.com/T0kii/beats/v7/filebeat/input/filestream/internal/input-logfile"
+	"github.com/T0kii/beats/v7/libbeat/common/file"
 )
 
 func TestFileIdentifierInodeMarker(t *testing.T) {

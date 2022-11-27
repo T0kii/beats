@@ -18,8 +18,8 @@
 package pipeline
 
 import (
-	"github.com/elastic/beats/v7/libbeat/publisher"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/T0kii/beats/v7/libbeat/publisher"
+	"github.com/T0kii/beats/v7/libbeat/publisher/queue"
 )
 
 type retryer interface {

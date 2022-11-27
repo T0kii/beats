@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers/monitorstate"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/plugin"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers/monitorstate"
 
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/require"
@@ -22,12 +22,12 @@ import (
 	"github.com/elastic/elastic-agent-libs/mapstr"
 	"github.com/elastic/elastic-agent-libs/monitoring"
 
-	hbconfig "github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/heartbeat/scheduler"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
-	beatversion "github.com/elastic/beats/v7/libbeat/version"
+	hbconfig "github.com/T0kii/beats/v7/heartbeat/config"
+	"github.com/T0kii/beats/v7/heartbeat/monitors"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler"
+	"github.com/T0kii/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/libbeat/publisher/pipeline"
+	beatversion "github.com/T0kii/beats/v7/libbeat/version"
 )
 
 type ScenarioRun func(t *testing.T) (config mapstr.M, close func(), err error)

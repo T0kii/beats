@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/fields"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/test"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/fields"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/T0kii/beats/v7/x-pack/filebeat/input/netflow/decoder/test"
 )
 
 func TestTemplate_Apply(t *testing.T) {

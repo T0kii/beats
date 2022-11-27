@@ -10,9 +10,9 @@ package cpu
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/prometheus/ptest"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	_ "github.com/elastic/beats/v7/x-pack/metricbeat/module/containerd"
+	"github.com/T0kii/beats/v7/metricbeat/helper/prometheus/ptest"
+	mbtest "github.com/T0kii/beats/v7/metricbeat/mb/testing"
+	_ "github.com/T0kii/beats/v7/x-pack/metricbeat/module/containerd"
 )
 
 func TestEventMapping(t *testing.T) {

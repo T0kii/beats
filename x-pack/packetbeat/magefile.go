@@ -21,16 +21,16 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/build"
-	packetbeat "github.com/elastic/beats/v7/packetbeat/scripts/mage"
+	devtools "github.com/T0kii/beats/v7/dev-tools/mage"
+	"github.com/T0kii/beats/v7/dev-tools/mage/target/build"
+	packetbeat "github.com/T0kii/beats/v7/packetbeat/scripts/mage"
 
 	//mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/common"
+	"github.com/T0kii/beats/v7/dev-tools/mage/target/common"
 	//mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/unittest"
+	_ "github.com/T0kii/beats/v7/dev-tools/mage/target/unittest"
 	//mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/test"
+	"github.com/T0kii/beats/v7/dev-tools/mage/target/test"
 )
 
 // NpcapVersion specifies the version of the OEM Npcap installer to bundle with

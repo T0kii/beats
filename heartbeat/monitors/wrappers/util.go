@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/heartbeat/eventext"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/jobs"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 )
 

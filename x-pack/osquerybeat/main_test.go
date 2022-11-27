@@ -10,7 +10,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/cmd"
+	"github.com/T0kii/beats/v7/x-pack/osquerybeat/cmd"
 )
 
 var systemTest *bool

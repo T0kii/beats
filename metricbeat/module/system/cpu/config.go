@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgwarn"
 	metrics "github.com/elastic/elastic-agent-system-metrics/metric/cpu"
 )
 

@@ -33,18 +33,18 @@ import (
 	conf "github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/wrappers"
+	"github.com/T0kii/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/T0kii/beats/v7/libbeat/beat"
 
 	"github.com/stretchr/testify/require"
 
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/testslike"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
+	"github.com/T0kii/beats/v7/heartbeat/hbtest"
+	"github.com/T0kii/beats/v7/heartbeat/monitors"
 )
 
 // Tests that we can check a TLS connection with a cert for a SAN IP

@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/v7/filebeat/beater"
+	"github.com/T0kii/beats/v7/filebeat/beater"
 
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
+	cmd "github.com/T0kii/beats/v7/libbeat/cmd"
+	"github.com/T0kii/beats/v7/libbeat/cmd/instance"
 
 	// Import processors.
-	_ "github.com/elastic/beats/v7/libbeat/processors/timestamp"
+	_ "github.com/T0kii/beats/v7/libbeat/processors/timestamp"
 )
 
 // Name of this beat

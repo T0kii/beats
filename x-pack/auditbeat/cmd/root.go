@@ -8,16 +8,16 @@ import (
 	"fmt"
 	"strings"
 
-	auditbeatcmd "github.com/elastic/beats/v7/auditbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/x-pack/libbeat/management"
+	auditbeatcmd "github.com/T0kii/beats/v7/auditbeat/cmd"
+	"github.com/T0kii/beats/v7/libbeat/cmd"
+	"github.com/T0kii/beats/v7/libbeat/common/reload"
+	"github.com/T0kii/beats/v7/x-pack/libbeat/management"
 	"github.com/elastic/elastic-agent-client/v7/pkg/client"
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 
 	// Register Auditbeat x-pack modules.
-	_ "github.com/elastic/beats/v7/x-pack/auditbeat/include"
-	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
+	_ "github.com/T0kii/beats/v7/x-pack/auditbeat/include"
+	_ "github.com/T0kii/beats/v7/x-pack/libbeat/include"
 )
 
 // Name of the beat

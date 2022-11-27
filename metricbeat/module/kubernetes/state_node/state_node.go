@@ -20,11 +20,11 @@ package state_node
 import (
 	"fmt"
 
-	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	k8smod "github.com/elastic/beats/v7/metricbeat/module/kubernetes"
-	"github.com/elastic/beats/v7/metricbeat/module/kubernetes/util"
+	p "github.com/T0kii/beats/v7/metricbeat/helper/prometheus"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	"github.com/T0kii/beats/v7/metricbeat/mb/parse"
+	k8smod "github.com/T0kii/beats/v7/metricbeat/module/kubernetes"
+	"github.com/T0kii/beats/v7/metricbeat/module/kubernetes/util"
 	"github.com/elastic/elastic-agent-autodiscover/kubernetes"
 )
 

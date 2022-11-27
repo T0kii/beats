@@ -8,9 +8,9 @@
 package cloudfoundry
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	cfcommon "github.com/elastic/beats/v7/x-pack/libbeat/common/cloudfoundry"
+	"github.com/T0kii/beats/v7/libbeat/common/atomic"
+	"github.com/T0kii/beats/v7/metricbeat/mb"
+	cfcommon "github.com/T0kii/beats/v7/x-pack/libbeat/common/cloudfoundry"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

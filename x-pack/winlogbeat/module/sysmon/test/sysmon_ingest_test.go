@@ -14,7 +14,7 @@ package test
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/x-pack/winlogbeat/module"
+	"github.com/T0kii/beats/v7/x-pack/winlogbeat/module"
 )
 
 // Ignore these fields so that the tests will pass if Sysmon is not installed.

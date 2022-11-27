@@ -10,7 +10,7 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/telemetry"
+	"github.com/T0kii/beats/v7/x-pack/functionbeat/function/telemetry"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

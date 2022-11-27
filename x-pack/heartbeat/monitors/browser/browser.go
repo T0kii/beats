@@ -15,8 +15,8 @@ import (
 	"github.com/elastic/elastic-agent-libs/config"
 	"github.com/elastic/elastic-agent-libs/logp"
 
-	"github.com/elastic/beats/v7/heartbeat/ecserr"
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
+	"github.com/T0kii/beats/v7/heartbeat/ecserr"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/plugin"
 )
 
 func init() {

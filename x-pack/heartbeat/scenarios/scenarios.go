@@ -18,8 +18,8 @@ import (
 
 	"github.com/elastic/elastic-agent-libs/mapstr"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/scenarios/framework"
+	"github.com/T0kii/beats/v7/heartbeat/hbtest"
+	"github.com/T0kii/beats/v7/x-pack/heartbeat/scenarios/framework"
 )
 
 var scenarioDB = framework.NewScenarioDB()

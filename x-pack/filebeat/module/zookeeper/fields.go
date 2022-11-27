@@ -7,7 +7,7 @@
 package zookeeper
 
 import (
-	"github.com/elastic/beats/v7/libbeat/asset"
+	"github.com/T0kii/beats/v7/libbeat/asset"
 )
 
 func init() {

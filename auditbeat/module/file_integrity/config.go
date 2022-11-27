@@ -28,7 +28,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/v7/libbeat/common/match"
+	"github.com/T0kii/beats/v7/libbeat/common/match"
 )
 
 // MaxValidFileSizeLimit is the largest possible value for `max_file_size`.

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/T0kii/beats/v7/heartbeat/monitors/stdfields"
 	"github.com/elastic/elastic-agent-libs/logp"
 )
 

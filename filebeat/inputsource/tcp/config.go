@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgtype"
+	"github.com/T0kii/beats/v7/libbeat/common/cfgtype"
 	"github.com/elastic/elastic-agent-libs/transport/tlscommon"
 )
 
